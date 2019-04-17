@@ -1,0 +1,91 @@
+.special-header {
+	border-top: double;
+	border-bottom: double;
+	padding: 8px 0;
+	min-height: 25px;
+	
+}
+
+#logo-leiste{
+  width:717px;
+  margin: auto;
+  background: #fff;
+  overflow: hidden;
+  }
+  
+#logo-leiste .crossmedia-werbepartner{
+	color:#999;
+	font-size: 0.75em; 
+	line-height: 12px;
+	float:left;
+	margin-right:10px;
+	font-family: 'Raleway';
+}
+  
+#logo-leiste .logo{
+	
+  float:left;
+  margin: 0px 0px 0px 0px;
+  width:150px;
+   }
+	.logo-link{
+		width:150px; 
+		height:24px;
+	}
+	.logo-link img{
+		max-width:150px; 
+	}
+   .logo-link img:nth-child(1){
+	   display:  block;
+   }
+   .logo-link img:nth-child(2){
+	    display:  none;
+   }
+   .logo-link:hover > img:nth-child(2){
+	   display: block;
+   }
+   .logo-link:hover > img:nth-child(1){
+	   display: none;
+   }
+   @media all and (max-width: 530px){
+	   #logo-leiste {
+			margin-bottom: 15px;
+			width: 500px;
+			margin: auto;
+			overflow: hidden;
+		}
+		#logo-leiste .logo {
+		float: left;
+		margin: 0px 0px 0px 0px;
+		width: 95px;
+	}
+	.logo-link img {
+		max-width: 100%;
+	}
+	.special-header {
+		padding: 6px 8px;
+		min-height: 25px;
+	}
+   }
+    @media all and (max-width: 414px){
+	 #logo-leiste .logo {
+		float: left;
+		margin: 6px 0px 0px 0px;
+		width: 87px;
+	}
+	#logo-leiste .crossmedia-werbepartner {
+	color: #999;
+		font-size: 9px;
+		line-height: 12px;
+		float: left;
+		margin-right: 0px;
+	}
+   }
+     @media all and (max-width: 375px){
+		 #logo-leiste .logo {
+			float: left;
+			margin: 6px 0px 0px 0px;
+			width: 63px;
+		}
+	 }
+   
